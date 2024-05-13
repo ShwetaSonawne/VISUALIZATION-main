@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Container styling */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#2d545e, transparent); 
+  height: 100vh;
+     
+}
+
+/* Form styling */
+.form {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+ 
+
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+
+}
+
+.form label {
+  font-weight: bold;
+  color: white;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form input[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+    }
+
+.form input[type="submit"]:hover {
+  background-color: #218838;
+  
+}
+
+.form .error-message {
+  color: red;
+}
+
+.form .login-link {
+  text-align: center;
+}
+
+.form .login-link a {
+  text-decoration: none;
+  color: blue;
+}
+
+.form .signup-link {
+  text-align: center;
+}
+
+.form .signup-link a {
+  text-decoration: none;
+  color: blue;
+}

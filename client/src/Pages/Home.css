@@ -1,0 +1,21 @@
+table {
+  width: 100rem;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.204);
+  border-collapse: collapse;
+}
+
+td {
+    padding: 1rem;   
+    text-align: center;     
+}
+
+thead tr {
+    padding: 1rem;
+    text-align: center;
+}
+
+tbody td:hover {
+  background-color: rgba(146, 134, 134, 0.404);
+}
