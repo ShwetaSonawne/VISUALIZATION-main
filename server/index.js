@@ -6,7 +6,7 @@ const Rawdata = require("./Models/Data");
 const Geo = require("./Models/Geodata");
 const jsondata = require("./Data/jsondata.json");
 //import jsondata from "./Data/jsondata.json"
-//Rawdata.insertMany(jsondata)
+
 
 const app = express();
 app.use(express.json());
